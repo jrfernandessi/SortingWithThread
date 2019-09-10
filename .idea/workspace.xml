@@ -3,10 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="3425ceee-9798-4862-9646-46fd418ea60a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/Principal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +29,8 @@
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="39" column="39" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="284">
+              <caret line="39" column="39" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="39" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +41,8 @@
       <file leaf-file-name="ThreadJavaSO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ThreadJavaSO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
+            <state relative-caret-position="549">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -42,8 +50,8 @@
       <file leaf-file-name="MyThread.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+            <state relative-caret-position="-66">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,7 +262,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15350000" />
+    <option name="totallyTimeSpent" value="15878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -635,23 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="39" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreadJavaSO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="95" column="4" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arquivo0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -659,10 +650,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadJavaSO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        <state relative-caret-position="-66">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

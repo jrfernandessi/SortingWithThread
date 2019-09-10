@@ -33,7 +33,7 @@ public class MyThread extends Thread {
 //
 //                        System.out.println(">>>>>>>>>>>>> Indice: " + Principal.indice);
 
-//                        System.out.println(">>>>>>>>>>>>>" + file);
+//                        System.out.println(">>>>>>>>>>>>> " + file);
 
                         Principal.v[Principal.indice] = Integer.parseInt(value.trim());
                         Principal.indice++;
@@ -42,7 +42,7 @@ public class MyThread extends Thread {
 
                     } else {
 //                        notifyAll();
-
+                        System.out.println(">>>>>>>>>> terminou "+ file);
                         break;
 
                     }
@@ -51,7 +51,7 @@ public class MyThread extends Thread {
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (Exception e) {
-
+                e.printStackTrace();
             }
 
         }
