@@ -24,23 +24,27 @@ public class MyThread extends Thread {
 
         while (true) {
             try {
-                Integer value = Integer.parseInt((line.readLine().trim()));
+                String value;
 
 
                 synchronized (Principal.v) {
+                    value = line.readLine();
                     if (value != null) {
 //
 //                        System.out.println(">>>>>>>>>>>>> Indice: " + Principal.indice);
 
 //                        System.out.println(">>>>>>>>>>>>>" + file);
-                        Principal.v[Principal.indice] = value;
+
+                        Principal.v[Principal.indice] = Integer.parseInt(value.trim());
                         Principal.indice++;
 
 //                    System.out.println(">>>>>>>>>>>>>>>>>>"+indice);
 
                     } else {
+//                        notifyAll();
 
                         break;
+
                     }
                 }
 
@@ -49,6 +53,7 @@ public class MyThread extends Thread {
             } catch (Exception e) {
 
             }
+
         }
 
 

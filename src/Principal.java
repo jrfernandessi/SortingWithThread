@@ -33,9 +33,11 @@ public class Principal {
         thread9.start();
         thread10.start();
 
+        System.out.println(">>>>>>>>> começar a impressão");
 
-        for (int i = 0; i < v.length; i++)
-            System.out.println(v[i]);
+
+//        for (int i = 0; i < v.length; i++)
+//            System.out.println(v[i]);
 
     }
 
