@@ -1,12 +1,14 @@
-
+import java.util.Scanner;
 
 public class TestParallelMergeSort
 {
 	// define the size to run, suggest range [1 million, 10 million]
 	public final static int arrSize = 10000;
 
+
 	// the best number of thread is the number of the core of your processors
-	private final static int threadCount = 4;
+
+	private static int threadCount;
 
 	// decide whether to print the merge result
 	private final static boolean showSingleResults = false;
@@ -15,6 +17,9 @@ public class TestParallelMergeSort
 
 	public static void main(String[] args)
 	{
+		Scanner ler = new Scanner(System.in);
+		System.out.println("quantidade de threads");
+		threadCount = ler.nextInt();
 
 		ParallelMergeSort pms = new ParallelMergeSort();
 		long singleTotal = 0;
