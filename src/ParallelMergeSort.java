@@ -100,7 +100,7 @@ public class ParallelMergeSort
         } catch (Exception e) {
             System.out.println(e);
         }
-        System.out.println("Files genereted...");
+//        System.out.println("Files genereted...");
     }
 
 	/**
