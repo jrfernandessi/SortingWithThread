@@ -27,22 +27,23 @@ public class MyThread extends Thread {
                 String value;
 
 
-                synchronized (Principal.v) {
+                synchronized (ParallelMergeSort.v) {
                     value = line.readLine();
                     if (value != null) {
 //
 //                        System.out.println(">>>>>>>>>>>>> Indice: " + Principal.indice);
 
 //                        System.out.println(">>>>>>>>>>>>> " + file);
-
-                        Principal.v[Principal.indice] = Integer.parseInt(value.trim());
-                        Principal.indice++;
-
+                        if(ParallelMergeSort.indice<10000) {
+                            ParallelMergeSort.v[ParallelMergeSort.indice] = Integer.parseInt(value.trim());
+                            ParallelMergeSort.indice++;
+                        }
+//                        System.out.println(ParallelMergeSort.indice);
 //                    System.out.println(">>>>>>>>>>>>>>>>>>"+indice);
 
                     } else {
 //                        notifyAll();
-                        System.out.println(">>>>>>>>>> terminou "+ file);
+//                        System.out.println(">>>>>>>>>> terminou "+ file);
                         break;
 
                     }
