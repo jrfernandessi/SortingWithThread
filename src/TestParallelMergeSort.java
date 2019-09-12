@@ -10,7 +10,7 @@ public class TestParallelMergeSort
 	private static int qtdThread;
 
 	// decide se mostra ou não o vetor ordenado
-	private final static boolean mostrarVetor = false;
+	private final static boolean gerarArquivo = true;
 	private final static int rodadas = 10;
 
 	public static void main(String[] args)
@@ -28,7 +28,7 @@ public class TestParallelMergeSort
 
 
 				multiTotal += pms.MultiThread(tamanho, qtdThread,
-						mostrarVetor);
+						gerarArquivo);
 
 		}
 

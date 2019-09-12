@@ -1,7 +1,9 @@
 
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.concurrent.ExecutionException;
 
 
 class SortThread extends Thread
@@ -32,12 +34,17 @@ public class ParallelMergeSort
 	{
 		fileGeneretad(1000);
 
-		MyThread[] thread = new MyThread[10];
+		MyThread[] threads = new MyThread[10];
 
         for(int i=0;i<10;i++){
-        	thread[i]=new MyThread("arquivo"+i+".txt");
-        	thread[i].start();
+        	threads[i]=new MyThread("arquivo"+i+".txt");
+        	threads[i].start();
 		}
+		for(Thread thread: threads){
+            while(thread.isAlive()){
+
+            }
+        }
 
         
         return v;
@@ -66,7 +73,7 @@ public class ParallelMergeSort
 
 
 
-	public long MultiThread(int arrSize, int qtdThreads, boolean showResults)
+	public long MultiThread(int arrSize, int qtdThreads, boolean gerarArquivo)
 	{
 		if (qtdThreads < 1 || arrSize < qtdThreads)
 		{
@@ -127,14 +134,18 @@ public class ParallelMergeSort
 
 		long totalTime = endTime1 - startTime1;
 		// show results
-		if (showResults)
+		if (gerarArquivo)
 		{
-			for (int i = 0; i < arr.length; i++)
-			{
-				System.out.println(arr[i]);
-			}
-			System.out.println("Multithread(" + qtdThreads
-					+ ") performance: \t" + totalTime + "ms");
+		    try {
+                FileWriter output = new FileWriter("output.txt");
+                for (int i = 0; i < arr.length; i++) {
+                    output.write(arr[i]+"\n");
+//                    System.out.println(arr[i]);
+                }
+                output.close();
+            }catch (IOException e){
+		        e.printStackTrace();
+            }
 		}
 		return totalTime;
 	}
