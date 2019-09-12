@@ -3,17 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3425ceee-9798-4862-9646-46fd418ea60a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/ParallelMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/ParallelMergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParallelMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParallelMergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,7 +108,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Principal" />
       <item itemvalue="Application.ThreadJavaSO" />
       <item itemvalue="Application.Principal" />
     </list>

@@ -31,7 +31,7 @@ public class MyThread extends Thread {
                     value = line.readLine();
                     if (value != null) {
 
-                        if(ParallelMergeSort.indice<10000) {
+                        if(ParallelMergeSort.indice<Principal.tamanho*10) {
                             ParallelMergeSort.v[ParallelMergeSort.indice] = Integer.parseInt(value.trim());
                             ParallelMergeSort.indice++;
                         }

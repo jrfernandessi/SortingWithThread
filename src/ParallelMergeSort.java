@@ -27,11 +27,11 @@ class SortThread extends Thread
 public class ParallelMergeSort
 {
 	//tamanho do arquivo 10*tamanho do arquivo
-	public static int v[] = new int[10000];
+	public static int v[] = new int[Principal.tamanho*10];
 	public static int indice;
 	public int[] GenerateRandomNum(int length, int max)
 	{
-		gerarArquivos(1000);
+		gerarArquivos(Principal.tamanho);
 
 		MyThread[] threads = new MyThread[10];
 
@@ -59,9 +59,9 @@ public class ParallelMergeSort
                 for (int j = 0; j < tamanho; j++) {
                     Random r = new Random();
                     if (j == tamanho - 1)
-                        fw.write(r.nextInt(10000)+ "\t");
+                        fw.write(r.nextInt(1000000)+ "\t");
                     else
-                        fw.write(r.nextInt(10000) + "\n");
+                        fw.write(r.nextInt(1000000) + "\n");
                 }
                 fw.close();
             }
