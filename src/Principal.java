@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class TestParallelMergeSort
+public class Principal
 {
-	// define o tamanho do array
+	// define o tamanho do array = 10*tamanho do arquivo
 	public final static int tamanho = 10000;
 
 
@@ -10,8 +10,9 @@ public class TestParallelMergeSort
 	private static int qtdThread;
 
 	// decide se mostra ou não o vetor ordenado
-	private final static boolean gerarArquivo = true;
-	private final static int rodadas = 10;
+	private final static boolean gerarArquivo = false;
+	private final static boolean mostrarVetor = false;
+	private final static int rodadas = 1;
 
 	public static void main(String[] args)
 	{
@@ -28,7 +29,7 @@ public class TestParallelMergeSort
 
 
 				multiTotal += pms.MultiThread(tamanho, qtdThread,
-						gerarArquivo);
+						gerarArquivo, mostrarVetor);
 
 		}
 

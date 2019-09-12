@@ -1,9 +1,7 @@
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Random;
-import java.util.concurrent.ExecutionException;
 
 
 class SortThread extends Thread
@@ -28,11 +26,12 @@ class SortThread extends Thread
 
 public class ParallelMergeSort
 {
+	//tamanho do arquivo 10*tamanho do arquivo
 	public static int v[] = new int[10000];
 	public static int indice;
 	public int[] GenerateRandomNum(int length, int max)
 	{
-		fileGeneretad(1000);
+		gerarArquivos(1000);
 
 		MyThread[] threads = new MyThread[10];
 
@@ -41,15 +40,17 @@ public class ParallelMergeSort
         	threads[i].start();
 		}
 		for(Thread thread: threads){
-            while(thread.isAlive()){
-
-            }
-        }
+			try {
+				thread.join();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
 
         
         return v;
 	}
-	public static void fileGeneretad(int tamanho) {
+	public static void gerarArquivos(int tamanho) {
         int count = 0;
         try {
             FileWriter fw = null;
@@ -73,7 +74,7 @@ public class ParallelMergeSort
 
 
 
-	public long MultiThread(int arrSize, int qtdThreads, boolean gerarArquivo)
+	public long MultiThread(int arrSize, int qtdThreads, boolean gerarArquivo, boolean mostrarVetor)
 	{
 		if (qtdThreads < 1 || arrSize < qtdThreads)
 		{
@@ -140,12 +141,19 @@ public class ParallelMergeSort
                 FileWriter output = new FileWriter("output.txt");
                 for (int i = 0; i < arr.length; i++) {
                     output.write(arr[i]+"\n");
-//                    System.out.println(arr[i]);
                 }
                 output.close();
             }catch (IOException e){
 		        e.printStackTrace();
             }
+		}
+		if (mostrarVetor)
+		{
+
+				for (int i = 0; i < arr.length; i++) {
+                    System.out.println(arr[i]);
+				}
+
 		}
 		return totalTime;
 	}
