@@ -31,7 +31,7 @@ public class ParallelMergeSort
 	public static int indice;
 	public int[] GenerateRandomNum(int length, int max)
 	{
-		gerarArquivos(Principal.tamanho);
+
 
 		MyThread[] threads = new MyThread[10];
 
