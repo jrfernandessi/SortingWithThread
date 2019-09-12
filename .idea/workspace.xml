@@ -13,11 +13,8 @@
       <change beforePath="$PROJECT_DIR$/arquivo7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo7.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arquivo8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo8.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arquivo9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/ParallelMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/ParallelMergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/SortThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/SortThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/TestParallelMergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParallelMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParallelMergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestParallelMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/Principal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
