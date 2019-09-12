@@ -19,7 +19,7 @@ public class MyThread extends Thread {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-//        System.out.println(file);
+
 
 
         while (true) {
@@ -30,20 +30,14 @@ public class MyThread extends Thread {
                 synchronized (ParallelMergeSort.v) {
                     value = line.readLine();
                     if (value != null) {
-//
-//                        System.out.println(">>>>>>>>>>>>> Indice: " + Principal.indice);
 
-//                        System.out.println(">>>>>>>>>>>>> " + file);
                         if(ParallelMergeSort.indice<10000) {
                             ParallelMergeSort.v[ParallelMergeSort.indice] = Integer.parseInt(value.trim());
                             ParallelMergeSort.indice++;
                         }
-//                        System.out.println(ParallelMergeSort.indice);
-//                    System.out.println(">>>>>>>>>>>>>>>>>>"+indice);
+
 
                     } else {
-//                        notifyAll();
-//                        System.out.println(">>>>>>>>>> terminou "+ file);
                         break;
 
                     }
