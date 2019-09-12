@@ -19,9 +19,9 @@ public class Principal
 		Scanner ler = new Scanner(System.in);
 		System.out.println("tamanho dos arquivos");
 		tamanho=ler.nextInt();
-		while (true) {
-			System.out.println("quantidade de threads");
-			qtdThread = ler.nextInt();
+		for(int k=2;k<22;k+=2) {
+//			System.out.println("quantidade de threads");
+			qtdThread = k;
 
 			ParallelMergeSort pms = new ParallelMergeSort();
 			long multiTotal = 0;
