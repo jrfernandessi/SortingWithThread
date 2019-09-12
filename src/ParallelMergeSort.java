@@ -6,21 +6,21 @@ import java.util.Random;
 
 class SortThread extends Thread
 {
-	private int left;
-	private int right;
+	private int inicio;
+	private int fim;
 	private int[] arr;
 
-	public SortThread(int[] arr, int left, int right)
+	public SortThread(int[] arr, int inicio, int fim)
 	{
-		this.left = left;
-		this.right = right;
+		this.inicio = inicio;
+		this.fim = fim;
 		this.arr = arr;
 	}
 
 	@Override
 	public void run()
 	{
-		MergeSort.Sort(arr, left, right);
+		MergeSort.Sort(arr, inicio, fim);
 	}
 }
 
@@ -29,7 +29,7 @@ public class ParallelMergeSort
 	//tamanho do arquivo 10*tamanho do arquivo
 	public static int v[] = new int[Principal.tamanho*10];
 	public static int indice;
-	public int[] GenerateRandomNum(int length, int max)
+	public int[] montarVetorResultante(int length, int max)
 	{
 
 
@@ -81,18 +81,18 @@ public class ParallelMergeSort
 			System.out.println("Número ilegal de Threads");
 		}
 
-		int[] arr = GenerateRandomNum(arrSize, arrSize);
+		int[] arr = montarVetorResultante(arrSize, arrSize);
 		Thread[] threadsOrdenacao = new Thread[qtdThreads];
 
-		// create threads
-		int left = 0, right = arrSize / qtdThreads - 1;
+		// crio cada thread com inicio e fim
+		int inicio = 0, fim = arrSize / qtdThreads - 1;
 		for (int i = 0; i < threadsOrdenacao.length; i++)
 		{
 			if (qtdThreads - 1 == i)
-				right = arrSize - 1;
-			threadsOrdenacao[i] = new SortThread(arr, left, right);
-			left = right + 1;
-			right = arrSize / qtdThreads * (i + 2) - 1;
+				fim = arrSize - 1;
+			threadsOrdenacao[i] = new SortThread(arr, inicio, fim);
+			inicio = fim + 1;
+			fim = arrSize / qtdThreads * (i + 2) - 1;
 
 		}
 
@@ -116,17 +116,17 @@ public class ParallelMergeSort
 			e.printStackTrace();
 		}
 
-		left = 0;
-		right = arrSize / qtdThreads - 1;
+		inicio = 0;
+		fim = arrSize / qtdThreads - 1;
 
 		// junte os resultados
 		for (int i = 0; i < threadsOrdenacao.length; i++)
 		{
 			if (qtdThreads - 1 == i)
-				right = arrSize - 1;
-			MergeSort.Merge(arr, 0, left - 1, right);
-			left = right + 1;
-			right = arrSize / qtdThreads * (i + 2) - 1;
+				fim = arrSize - 1;
+			MergeSort.Merge(arr, 0, inicio - 1, fim);
+			inicio = fim + 1;
+			fim = arrSize / qtdThreads * (i + 2) - 1;
 
 		}
 

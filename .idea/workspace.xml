@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3425ceee-9798-4862-9646-46fd418ea60a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivo9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arquivo9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/ParallelMergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/ParallelMergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoSO/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoSO/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParallelMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParallelMergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -40,8 +25,8 @@
       <file leaf-file-name="ParallelMergeSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParallelMergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="-119">
+              <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -49,17 +34,8 @@
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="439">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -67,7 +43,7 @@
       <file leaf-file-name="MyThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="540">
               <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,8 +70,9 @@
         <option value="$PROJECT_DIR$/src/MyThread.java" />
         <option value="$PROJECT_DIR$/src/TestParallelMergeSort.java" />
         <option value="$PROJECT_DIR$/output.txt" />
-        <option value="$PROJECT_DIR$/src/ParallelMergeSort.java" />
         <option value="$PROJECT_DIR$/src/Principal.java" />
+        <option value="$PROJECT_DIR$/src/ParallelMergeSort.java" />
+        <option value="$PROJECT_DIR$/src/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -268,12 +245,12 @@
       <workItem from="1568219524271" duration="283000" />
       <workItem from="1568219866574" duration="21000" />
       <workItem from="1568226990506" duration="3144000" />
-      <workItem from="1568329638592" duration="806000" />
+      <workItem from="1568329638592" duration="1490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2398000" />
+    <option name="totallyTimeSpent" value="3082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
@@ -556,16 +533,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestParallelMergeSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/ParallelMergeSort.java">
+    <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="540">
           <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -573,24 +550,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        <state relative-caret-position="439">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
+    <entry file="file://$PROJECT_DIR$/src/ParallelMergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="-119">
+          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
