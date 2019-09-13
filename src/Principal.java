@@ -10,7 +10,7 @@ public class Principal {
     // decide se mostra ou não o vetor ordenado
     private final static boolean gerarArquivo = true;
     private final static boolean mostrarVetor = false;
-    private final static int rodadas = 1;
+    private final static int rodadas = 30;
 
 
     public static void main(String[] args) {
@@ -35,7 +35,7 @@ public class Principal {
 
 
             System.out.println("Multithread(" + qtdThread + ")\t" + multiTotal
-                    + "ms\t" + "\n");
+                    + "ms\t Média: " +multiTotal/rodadas+ "ms\n");
         }
     }
 
