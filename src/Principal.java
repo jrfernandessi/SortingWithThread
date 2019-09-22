@@ -1,3 +1,6 @@
+import com.sun.management.OperatingSystemMXBean;
+
+import java.lang.management.ManagementFactory;
 import java.util.Scanner;
 
 public class Principal {
@@ -10,14 +13,20 @@ public class Principal {
     // decide se mostra ou não o vetor ordenado
     private final static boolean gerarArquivo = true;
     private final static boolean mostrarVetor = false;
-    private final static int rodadas = 30;
+    private static int rodadas;
+    static OperatingSystemMXBean operatingSystemMXBean = (OperatingSystemMXBean) ManagementFactory.getOperatingSystemMXBean();
 
 
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
+
         System.out.println("tamanho dos arquivos");
         tamanho = ler.nextInt();
+        System.out.println("número de vezes que deseja executar o algoritmo");
+        rodadas = ler.nextInt();
         ParallelMergeSort.gerarArquivos(tamanho);
+
+//        System.out.println(operatingSystemMXBean.getSystemCpuLoad());
         while (true) {
             System.out.println("quantidade de threads");
             qtdThread = ler.nextInt();
@@ -26,10 +35,14 @@ public class Principal {
             long multiTotal = 0;
 
             for (int i = 0; i < rodadas; i++) {
-
-
+                double antes = operatingSystemMXBean.getFreePhysicalMemorySize();
+//                System.out.println("Uso de CPU antes "+operatingSystemMXBean.getSystemCpuLoad());
+//                System.out.println(antes);
                 multiTotal += pms.MultiThread(tamanho * 10, qtdThread,
                         gerarArquivo, mostrarVetor);
+//                System.out.println("Uso de CPU depois "+operatingSystemMXBean.getSystemCpuLoad());
+                double depois = operatingSystemMXBean.getFreePhysicalMemorySize();
+                System.out.println("Consumo da memória: "+((antes-depois)/1028)/1028 + "MB");
 
             }
 
