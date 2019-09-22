@@ -13,7 +13,7 @@ public class Principal {
     // decide se mostra ou não o vetor ordenado
     private final static boolean gerarArquivo = true;
     private final static boolean mostrarVetor = false;
-    private static int rodadas;
+    private static int rodadas=1;
     static OperatingSystemMXBean operatingSystemMXBean = (OperatingSystemMXBean) ManagementFactory.getOperatingSystemMXBean();
 
 
@@ -22,8 +22,8 @@ public class Principal {
 
         System.out.println("tamanho dos arquivos");
         tamanho = ler.nextInt();
-        System.out.println("número de vezes que deseja executar o algoritmo");
-        rodadas = ler.nextInt();
+//        System.out.println("número de vezes que deseja executar o algoritmo");
+//        rodadas = ler.nextInt();
         ParallelMergeSort.gerarArquivos(tamanho);
 
 //        System.out.println(operatingSystemMXBean.getSystemCpuLoad());
@@ -51,5 +51,9 @@ public class Principal {
                     + "ms\t Média: " +multiTotal/rodadas+ "ms\n");
         }
     }
+    /*
+    TODO: para Testar
+    /Users/Junior/git/GAMMA/Codigo_Gamma/Sequential_teste/RunTime/compile /Users/Junior/git/GAMMA/Codigo_Gamma/Sequential_teste/RunTime/Exemplos/Testes/sum.gm
+     */
 
 }
