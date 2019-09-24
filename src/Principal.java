@@ -26,8 +26,7 @@ public class Principal {
 //        rodadas = ler.nextInt();
         ParallelMergeSort.gerarArquivos(tamanho);
 
-//        System.out.println(operatingSystemMXBean.getSystemCpuLoad());
-        while (true) {
+
             System.out.println("quantidade de threads");
             qtdThread = ler.nextInt();
 
@@ -36,24 +35,16 @@ public class Principal {
 
             for (int i = 0; i < rodadas; i++) {
                 double antes = operatingSystemMXBean.getFreePhysicalMemorySize();
-//                System.out.println("Uso de CPU antes "+operatingSystemMXBean.getSystemCpuLoad());
-//                System.out.println(antes);
                 multiTotal += pms.MultiThread(tamanho * 10, qtdThread,
                         gerarArquivo, mostrarVetor);
-//                System.out.println("Uso de CPU depois "+operatingSystemMXBean.getSystemCpuLoad());
                 double depois = operatingSystemMXBean.getFreePhysicalMemorySize();
-                System.out.println("Consumo da memória: "+((antes-depois)/1028)/1028 + "MB");
+                System.out.println("Consumo da memória: "+((antes-depois)*0.0000001) + "MB");
 
-            }
+
 
 
             System.out.println("Multithread(" + qtdThread + ")\t" + multiTotal
                     + "ms\t Média: " +multiTotal/rodadas+ "ms\n");
         }
     }
-    /*
-    TODO: para Testar
-    /Users/Junior/git/GAMMA/Codigo_Gamma/Sequential_teste/RunTime/compile /Users/Junior/git/GAMMA/Codigo_Gamma/Sequential_teste/RunTime/Exemplos/Testes/sum.gm
-     */
-
 }
